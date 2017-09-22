@@ -36,4 +36,8 @@ Uno RESET to 10uF cap then cap to GND
 
 Now load an example like blink and upload. The Uno will send it to the ATtiny.
 
+To run at 8mhz Tools>Clock>8MHz Internal
 
+Tools>Burn Bootloader
+
+Then upload a sketch
