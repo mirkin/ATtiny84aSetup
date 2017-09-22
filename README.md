@@ -35,14 +35,14 @@ opposite pin 1.
 * Uno RESET to 10uF cap then cap to GND
 
 | Uno Pin | ATtiny84 Pin |
-| :------ | -----------: |
+| :------ | :----------- |
 | +5V     | 1 (vcc)      |
 | 10      | 4 (reset)    |
 | 11      | 7 (MOSI)     |
 | 12      | 8 (MISO)     |
 | 13      | 9 (SCK)      |
 | GND     | 14 (GND)     |
-| RESET to 10uF cap then cap to GND |
+| RESET   | 10uF cap then cap to GND |
 
 Now load an example like blink and upload. The Uno will send it to the ATtiny.
 
