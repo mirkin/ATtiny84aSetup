@@ -26,13 +26,23 @@ Pin 1 on ATTINY 84A bottom left if nothch is facing left. Mine has a triangle
 also showing pin 1. Pin 2 is next to it pin 8 is opposite pin 7, pin 14
 opposite pin 1.
 
-Wire Arduino Uno +5V to ATtiny84 Pin 1 (vcc)
-Uno pin 10 to ATtiny pin 4 (reset)
-Uno pin 11 to ATtiny pin 7 (MOSI)
-Uno pin 12 to ATtiny pin 8 (MISO)
-Uno pin 13 to ATtiny pin 9 (SCK)
-Uno GND to ATtiny pin 14 (GND)
-Uno RESET to 10uF cap then cap to GND
+* Wire Arduino Uno +5V to ATtiny84 Pin 1 (vcc)
+* Uno pin 10 to ATtiny pin 4 (reset)
+* Uno pin 11 to ATtiny pin 7 (MOSI)
+* Uno pin 12 to ATtiny pin 8 (MISO)
+* Uno pin 13 to ATtiny pin 9 (SCK)
+* Uno GND to ATtiny pin 14 (GND)
+* Uno RESET to 10uF cap then cap to GND
+
+| Uno Pin | ATtiny84 Pin |
+| :------ | -----------: |
+| +5V     | 1 (vcc)      |
+| 10      | 4 (reset)    |
+| 11      | 7 (MOSI)     |
+| 12      | 8 (MISO)     |
+| 13      | 9 (SCK)      |
+| GND     | 14 (GND)     |
+| RESET to 10uF cap then cap to GND |
 
 Now load an example like blink and upload. The Uno will send it to the ATtiny.
 
